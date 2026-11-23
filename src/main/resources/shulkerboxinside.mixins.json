@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.shulkerboxinside.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ShulkerBoxSlotMixin",
+    "ShulkerBoxBlockEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

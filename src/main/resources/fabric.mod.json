@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "shulkerboxinside",
+  "version": "${version}",
+  "name": "Shulker Box Inside",
+  "description": "Lets you put shulker boxes inside other shulker boxes (GUI and hoppers).",
+  "license": "MIT",
+  "environment": "*",
+  "mixins": ["shulkerboxinside.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25"
+  }
+}
